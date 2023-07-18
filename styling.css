@@ -300,6 +300,8 @@ input[type='radio'], label{
   width: 100%;
   height: auto;
   background-image: url("images/background.jpg");
-  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 
 }
