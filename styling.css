@@ -1,0 +1,232 @@
+
+/* Sets results section not to be visible until user has input details*/
+#result_section{
+  display: none;
+}
+
+/* Styles the table*/
+table, th, td {
+  border: 1px solid;
+  width: 100%;
+  font-size: 16px;
+  font-family:helvetica;
+  border: 1px solid #11455A;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+}
+
+a:hover {
+  color: white;
+}
+/* Styles the table to have alternate colours for each row*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styles the table row when user hovers*/
+tr:hover {
+  background-color: gray;
+  color: white;
+}
+
+/* Styles the table headers*/
+th {
+  background-color: #11455A;
+  color: white;
+  height: 70px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+/* Styles the input for forms*/
+input, select {
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Styles the label for forms*/
+label {
+  font-size: 18px;
+  padding: 5px 20px;
+  font-family:helvetica;
+}
+
+/* Styles the search box*/
+#searchBox {
+  padding: 5px;
+  border-radius: 0.5rem;
+  position:relative; 
+  left:5%;
+  top:25%;
+  width:30%;
+}
+
+p {
+ line-height: 200%; 
+}
+
+/* Styles the selected input field*/
+input:focus {
+  background-color: lightblue;
+}
+
+
+  h1 {
+    text-align: center;
+    color:#11455A;
+    padding: 15px;
+    font-family:helvetica;
+    font-size:30px;
+}
+h2 {
+  text-align: center;
+    color:#11455A;
+    font-family:helvetica;
+    font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+  color: #064e5b;
+
+}
+h3 {
+  font-family:helvetica;
+}
+body {
+ background-color: #EAEAEA;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
+  margin: 0px;
+  font-family:helvetica;
+
+}
+/* Styles the navigation bar*/
+.menuBar {
+  background: linear-gradient(#DADDD8, #D1D4D1);
+  overflow: hidden;
+  border-bottom: 3px solid transparent;
+  border-bottom-color: #e4e2e0;
+  font-family:helvetica;
+  justify-content: space-between;
+}
+
+
+
+.toggle-button {
+  position: absolute;
+  top: .74rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.menuBar a {
+  float: left;
+  color: #11455A;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Styles the navigation bar to highlight when hovering */
+.menuBar a:hover {
+  background-color: #11455A;
+  color: #EAEAEA;
+}
+/* Styles the navigation bar to highlight active pane */
+.menuBar a.active {
+  background-color: #11455A;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* Styles buttons */
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: #064e5b;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+/* Styles the submit button */
+#submit {
+  display: block;
+  margin: 20px auto;
+  background-color: #064e5b;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  padding: 30px;
+}
+/* Styles the submit button */
+#submit:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  padding: 30px;
+}
+/* Styles the containers for pay.html */
+.card{
+  width: 30%;
+  height: 550px;
+  padding: 10px 30px;
+  background: #DADDD8;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #064e5b;
+  font-family: helvetica;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-left: 10%;   
+  margin-top: 5%;
+  float: left;
+}  
+/* Styles the summary box to reduce row height by reducing visible text */
+#summaryBox {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+/* Styles the summary cell to display text when hovering */
+ #summaryBox:hover {
+  z-index: 1;
+  width: auto;
+  white-space: normal;
+  overflow: visible;
+  height: auto;
+  word-wrap: break-all;
+  text-overflow: clip;
+  
+}
