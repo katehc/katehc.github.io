@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RSVP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js.js"></script>
+    <link href="styling.css" rel="stylesheet">
+    
+</head>
+<body style="background-color: #E8C8D4;">
+    <!--Navigation Bar-->
+    <div class="menuBar">
+        <a href="index.html">Home</a>
+        <a href="location.html">Location</a>
+        <a class="active" href="rsvp.html">RSVP</a>
+      </div>
+
+
+
+<!--Form for rsvp details-->
+
+<form id='rsvpform' action="https://api.sheetmonkey.io/form/dQTNoqs1Ezrcj9bFNNBc5c" method="POST" autocomplete="off">
+
+        <fieldset  class="card">
+        <h2>Please RSVP here</h2><br>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id='name' name="name" placeholder="Your Name" required><br>
+        <br>
+        <label for="attending">Will you be attending?</label><br><br>
+        <input type="radio" id="Yes" name="attending" value="Yes" required>
+          <label for="html">Yes</label>
+          <input type="radio" id="No" name="attending" value="No">
+          <label for="css">No</label><br>
+        <input id="jsValue" type="hidden" name="jsValue" value="" />
+
+        <input type="hidden" name="dateOne" value="" onChange="setDate(this.value);"/>
+
+        <input type="submit" value="Submit" id='submit'>
+    </fieldset>
+</form>
+</body>
+
+</html>

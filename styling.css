@@ -17,7 +17,7 @@ table, th, td {
 }
 
 a:hover {
-  color: white;
+  color: #bc00dd;
 }
 /* Styles the table to have alternate colours for each row*/
 tr:nth-child(even) {
@@ -76,19 +76,18 @@ input:focus {
 
   h1 {
     text-align: center;
-    color:#11455A;
-    padding: 15px;
+    color:#47126b;
+    padding: 35px;
     font-family:helvetica;
     font-size:30px;
 }
 h2 {
   text-align: center;
-    color:#11455A;
-    font-family:helvetica;
-    font-size: 20px;
+    color:#47126b;
+    font-family:SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;;
+    font-size: 30px;
   line-height: 1.5;
   margin: 20px 0 10px;
-  color: #064e5b;
 
 }
 h3 {
@@ -105,10 +104,9 @@ body {
 }
 /* Styles the navigation bar*/
 .menuBar {
-  background: linear-gradient(#DADDD8, #D1D4D1);
+  background: #cdb4db;
   overflow: hidden;
   border-bottom: 3px solid transparent;
-  border-bottom-color: #e4e2e0;
   font-family:helvetica;
   justify-content: space-between;
 }
@@ -127,7 +125,7 @@ body {
 
 .menuBar a {
   float: left;
-  color: #11455A;
+  color: #47126b;
   text-align: center;
   padding: 25px 16px;
   text-decoration: none;
@@ -136,13 +134,13 @@ body {
 
 /* Styles the navigation bar to highlight when hovering */
 .menuBar a:hover {
-  background-color: #11455A;
-  color: #EAEAEA;
+  background-color: #b388eb;
+  color: #47126b;
 }
 /* Styles the navigation bar to highlight active pane */
 .menuBar a.active {
-  background-color: #11455A;
-  color: white;
+  background-color: #b388eb;
+  color: #47126b;
 }
 
 @media screen and (max-width: 500px) {
@@ -194,18 +192,18 @@ button:hover {
   width: 30%;
   height: 550px;
   padding: 10px 30px;
-  background: #DADDD8;
+  background: #cdb4db;
   border-radius: 5px;
-  border-style: solid;
   font-size: 18px;
   line-height: 1.5;
-  color: #064e5b;
+  color: #47126b;
   font-family: helvetica;
   font-size: 20px;
   box-sizing: border-box;
   margin-left: 10%;   
   margin-top: 5%;
   float: left;
+  border: none
 }  
 /* Styles the summary box to reduce row height by reducing visible text */
 #summaryBox {
@@ -229,4 +227,35 @@ button:hover {
   word-wrap: break-all;
   text-overflow: clip;
   
+}
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.locationInfo {
+  color: #47126b;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+h4 {
+  color: #47126b;
+  margin: auto;
+  font-size: 18px;
+}
+input[type='radio'], label{   
+  vertical-align: baseline;
+  padding: 10px;
+  margin: 10px;
 }

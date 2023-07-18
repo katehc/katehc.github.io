@@ -89,4 +89,8 @@ console.log(jobTitle);
 }   
 
 
-
+document.getElementById("jsValue").value = yourVariable;
+var date;
+function setDate(val) {
+    date = val;
+}
