@@ -314,7 +314,7 @@ html {
   background-size: cover;
 }
 
-html, body, .container-full, .menuBar{    
+.menuBar{    
   height:100%;
 }
 
