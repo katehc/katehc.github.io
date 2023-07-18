@@ -321,3 +321,10 @@ html {
 .menuBar{
    margin:0px;
 }
+
+.menuBar a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
