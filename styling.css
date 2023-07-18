@@ -313,3 +313,11 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+html, body, .container-full, .menuBar{    
+  height:100%;
+}
+
+.menuBar{
+   margin:0px;
+}
