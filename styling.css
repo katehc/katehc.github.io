@@ -296,7 +296,10 @@ input[type='radio'], label{
   }
 }
 
-.background-image {
+.welcome {
   width: 100%;
   height: auto;
+  background-image: url("images/background.jpg");
+  background-position: top;
+
 }
