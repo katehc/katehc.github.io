@@ -303,5 +303,5 @@ input[type='radio'], label{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-
+  height: 100%;
 }
