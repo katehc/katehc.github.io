@@ -299,6 +299,8 @@ html {
 .menuBar{    
   height:100%;
    margin:0px;
+   background-color: #b388eb;
+   overflow: hidden;
 }
 
 .menuBar a.icon {
