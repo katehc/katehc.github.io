@@ -123,25 +123,7 @@ body {
 
 }
 
-.menuBar a {
-  float: left;
-  color: #47126b;
-  text-align: center;
-  padding: 25px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-/* Styles the navigation bar to highlight when hovering */
-.menuBar a:hover {
-  background-color: #b388eb;
-  color: #47126b;
-}
-/* Styles the navigation bar to highlight active pane */
-.menuBar a.active {
-  background-color: #b388eb;
-  color: #47126b;
-}
 
 @media screen and (max-width: 500px) {
   .navbar a {
@@ -316,9 +298,6 @@ html {
 
 .menuBar{    
   height:100%;
-}
-
-.menuBar{
    margin:0px;
 }
 
@@ -327,4 +306,29 @@ html {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.menuBar a {
+  float: left;
+  display: block;
+  color: #47126b;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Styles the navigation bar to highlight when hovering */
+.menuBar a:hover {
+  background-color: #b388eb;
+  color: #47126b;
+}
+/* Styles the navigation bar to highlight active pane */
+.menuBar a.active {
+  background-color: #b388eb;
+  color: #47126b;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.menuBar .icon {
+  display: none;
 }
