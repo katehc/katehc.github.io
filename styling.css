@@ -392,3 +392,7 @@ html {
     text-align: left;
   }
 }
+
+.joinUs {
+  background: rbga(205,180,219, 0.5);
+}
