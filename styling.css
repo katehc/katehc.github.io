@@ -393,6 +393,7 @@ html {
   }
 }
 
-.joinUs {
-  background: rbga(205,180,219, 0.5);
+span {
+  
+  background-color: rgba(205,180,219, 0.3);
 }
