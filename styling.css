@@ -315,7 +315,7 @@ html {
 .menuBar a {
   float: left;
   display: block;
-  color: #47126b;
+  color: #bf9cd6;
   text-align: center;
   padding: 25px 16px;
   text-decoration: none;
@@ -338,7 +338,7 @@ html {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #bf9cd6;
   overflow: hidden;
 }
 
@@ -346,7 +346,7 @@ html {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #47126b;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -355,14 +355,14 @@ html {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #b388eb;
+  color: #47126b;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #b388eb;
+  color: #47126b;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
