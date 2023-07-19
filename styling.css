@@ -1,42 +1,8 @@
 
-/* Sets results section not to be visible until user has input details*/
-#result_section{
-  display: none;
-}
 
-/* Styles the table*/
-table, th, td {
-  border: 1px solid;
-  width: 100%;
-  font-size: 16px;
-  font-family:helvetica;
-  border: 1px solid #11455A;
-  border-collapse: collapse;
-  table-layout: fixed;
-
-}
 
 a:hover {
   color: #bc00dd;
-}
-/* Styles the table to have alternate colours for each row*/
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-/* Styles the table row when user hovers*/
-tr:hover {
-  background-color: gray;
-  color: white;
-}
-
-/* Styles the table headers*/
-th {
-  background-color: #11455A;
-  color: white;
-  height: 70px;
-  padding: 0px;
-  font-size: 18px;
 }
 
 /* Styles the input for forms*/
@@ -45,6 +11,7 @@ input, select {
   margin: 8px 0;
   box-sizing: border-box;
   font-size: 16px;
+  border-color: #b388eb;
 }
 
 /* Styles the label for forms*/
@@ -54,15 +21,7 @@ label {
   font-family:helvetica;
 }
 
-/* Styles the search box*/
-#searchBox {
-  padding: 5px;
-  border-radius: 0.5rem;
-  position:relative; 
-  left:5%;
-  top:25%;
-  width:30%;
-}
+
 
 p {
  line-height: 200%; 
@@ -70,7 +29,8 @@ p {
 
 /* Styles the selected input field*/
 input:focus {
-  background-color: lightblue;
+  background-color: rgb(249, 229, 246);
+  border-color: #b388eb;
 }
 
 
@@ -101,16 +61,6 @@ body {
   margin: 0px;
   font-family:helvetica;
 } 
-/* Styles the navigation bar*/
-.menuBar {
-  background: #cdb4db;
-  overflow: hidden;
-  border-bottom: 3px solid transparent;
-  font-family:helvetica;
-  justify-content: space-between;
-}
-
-
 
 .toggle-button {
   position: absolute;
@@ -277,16 +227,6 @@ input[type='radio'], label{
   }
 }
 
-/*.welcome {
-  width: 100%;
-  height: auto;
-  background-image: url("images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-
-}*/
 html {
   background: url("images/background.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -295,47 +235,7 @@ html {
   background-size: cover;
 }
 
-/*nav bar*/
-.menuBar{    
-  height:100%;
-   margin:0px;
-      overflow: hidden;
-}
 
-/*hamburger menu icon */
-.menuBar a.icon {
-  display: block;
-  position: absolute;
-  right: 0;
-  background-color: #bf9cd6;
-  top: 0;
-}
-
-/* links in the menu */
-.menuBar a {
-  float: left;
-  display: block;
-  color: #bf9cd6;
-  text-align: center;
-  padding: 25px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Styles the navigation bar to highlight when hovering */
-.menuBar a:hover {
-  background-color: #b388eb;
-  color: #47126b;
-}
-/* Styles the navigation bar to highlight active pane */
-.menuBar a.active {
-  background-color: #b388eb;
-  color: #47126b;
-}
-/* Hide the link that should open and close the topnav on small screens */
-.menuBar .icon {
-  display: none;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #bf9cd6;
