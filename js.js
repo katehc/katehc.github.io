@@ -96,6 +96,6 @@ function myFunction() {
   if (x.className === "menuBar") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "menuBar";
   }
 }
