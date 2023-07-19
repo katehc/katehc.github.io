@@ -296,13 +296,15 @@ html {
   background-size: cover;
 }
 
+/*nav bar*/
 .menuBar{    
   height:100%;
    margin:0px;
-   background-color: #b388eb;
+
    overflow: hidden;
 }
 
+/*hamburger menu icon */
 .menuBar a.icon {
   display: block;
   position: absolute;
@@ -310,6 +312,7 @@ html {
   top: 0;
 }
 
+/* links in the menu */
 .menuBar a {
   float: left;
   display: block;

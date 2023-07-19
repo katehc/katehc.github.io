@@ -1,9 +1,4 @@
-//const calculatePay = (pay, frequency, hours) => pay / hours;
-let result = document.getElementById("result_section");
-
-// adding the event listener to the form which calls the showResults function when the form is submitted
-document.getElementById("jobdetailsform").addEventListener("submit", getData);
-
+document.getElementById("menuBar");
 
 function getData(evt) {
     evt.preventDefault();
